@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a7164282e4f0040986c342eaf3aab8, type: 3}
+  m_Name: New game logix
+  m_EditorClassIdentifier: 
+  SkyObjects:
+  - pref: {fileID: 7009246664593995918, guid: 5e1535a8f0bfb8d408b97b28bf29e0d3, type: 3}
+    Count: 1
+    MaxSize: 1
+    MinSize: 0.2
+  - pref: {fileID: 442574309794298191, guid: 2beb444ae88cf244ca7c6617a0ba7848, type: 3}
+    Count: 2
+    MaxSize: 1
+    MinSize: 0.2
+  - pref: {fileID: 758425797476444390, guid: 267db1725cfa5e347bef050762819cc1, type: 3}
+    Count: 1
+    MaxSize: 1
+    MinSize: 0.2
+  - pref: {fileID: 6334024495857976832, guid: f6626033d923ec7469036ccda2ccbed3, type: 3}
+    Count: 2
+    MaxSize: 1
+    MinSize: 0.2
+  - pref: {fileID: 5904647847577427887, guid: 5065f8837993afe49b898bc6c20b5fda, type: 3}
+    Count: 1
+    MaxSize: 1
+    MinSize: 0.2
+  SeaObjects:
+  - pref: {fileID: 5961848724051598431, guid: 2fdc7c52f9949c54595e5c12f79d9583, type: 3}
+    Count: 4
+    MaxSize: 1
+    MinSize: 0.2
+  - pref: {fileID: 1939644011360938114, guid: 5bc27109ee778684eace1434fb9ed52a, type: 3}
+    Count: 2
+    MaxSize: 1
+    MinSize: 0.2
+  BichObjects:
+  - pref: {fileID: 2081677130570190232, guid: fdb928faf34c77f45999222092f574b1, type: 3}
+    Count: 1
+    MaxSize: 1
+    MinSize: 0.4
+  - pref: {fileID: 1053196546286043424, guid: 99fc090f5b6517b408142d48d9491109, type: 3}
+    Count: 3
+    MaxSize: 1
+    MinSize: 0.4
+  - pref: {fileID: 6216837540961514718, guid: 4ef67cb56fb56a045b3d88f1da3a05b0, type: 3}
+    Count: 4
+    MaxSize: 1
+    MinSize: 0.4
+  zones:
+  - NameZone: Sky
+    TopBoard: 5
+    LowBoard: -0.4
+  - NameZone: Sea
+    TopBoard: -0.5
+    LowBoard: -2.1
+  - NameZone: Bich
+    TopBoard: -2.2
+    LowBoard: -5
